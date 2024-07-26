@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name">
+        
+        <br>
+
+        <label for="tel">Telefone</label>
+        <input type="tel" id="tel">
+
+        <br>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email">
+
+        <br>
+        <label for="fisc">Fisico ou Juridico</label>
+        <select name="fisc" id="fisc">
+            <option value="fisico">Fisico</option>
+            <option value="juridico">Juridico</option>
+        </select>
+
+        <br>
+
+        <label for="end">Endereço</label>
+        <input type="text" id="end">
+
+        <br>
+
+        <label for="uf">UF</label>
+        <input type="text" id="uf">
+    </form>
+    
+
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            align-items: center;
+        }
+        label{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</body>
+</html>
