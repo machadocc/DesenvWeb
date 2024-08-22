@@ -1,0 +1,47 @@
+.pri {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.seg {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.terc {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.pri li {
+    padding: 5px;
+}
+
+.seg li {
+    padding: 5px;
+}
+
+.terc li {
+    padding: 5px;
+}
+.container {
+    display: block;
+    border-color: black;
+}
+
+.conteudo {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+fieldset {
+    border-radius: 5px;   
+}
+li {
+    list-style: none;
+}
