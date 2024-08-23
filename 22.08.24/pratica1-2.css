@@ -2,20 +2,29 @@
     border: 1px solid #000;
     border-radius: 5px;
     padding: 10px;
+    width: 800px;
+    background: rgb(0, 174, 255);
 }
 
 .seg {
     border: 1px solid #000;
     border-radius: 5px;
     padding: 10px;
+    width: 800px;
+    background: #e5e5e5;
 }
 
 .terc {
     border: 1px solid #000;
     border-radius: 5px;
     padding: 10px;
+    width: 800px;    
+    background: #e5e5e5;
 }
 
+ul{
+    padding: 0;         
+}
 
 .pri li {
     padding: 5px;
@@ -35,12 +44,11 @@
 
 .conteudo {
     display: flex;
-    padding: 30px;
-    justify-content: center;
 }
 
 fieldset {
     border-radius: 5px;   
+    width: 800px;
 }
 li {
     list-style: none;
