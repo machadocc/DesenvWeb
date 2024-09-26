@@ -54,7 +54,7 @@ if ($salario1 < $salario2) {
 $disciplina = array("Engenharia de Software","Banco de Dados","Administração e Sistemas de Informação", "Programação Web", "Estrutura de Dados");
 $professor = array("Jullian", "Marco", "Sandro", "Cleber", "Fernando");
 
-for($i = 0; $1 < count($disciplina); $i++ ) {
+for($i = 0; $i < count($disciplina); $i++ ) {
     echo "Disciplina $disciplina Professor $professor";
 }
 
