@@ -1,5 +1,5 @@
 <?php
-    function verificaDivisivelPor2($numero) {
+    function verificaNumero($numero) {
         if ($numero % 2 == 0) {
             return "Valor divisível por 2";
         } else {
@@ -9,7 +9,7 @@
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $numero = $_POST['numero'];
-        echo verificaDivisivelPor2($numero);
+        echo verificaNumero($numero);
     }
 ?>
 

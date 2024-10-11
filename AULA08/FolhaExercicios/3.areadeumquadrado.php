@@ -1,12 +1,12 @@
 <?php
-    function calculaAreaQuadrado($lado) {
+    function calculaArea($lado) {
         $area = $lado * $lado;
         return "A área do quadrado de lado $lado metros é $area metros quadrados.";
     }
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $lado = $_POST['lado'];
-        echo calculaAreaQuadrado($lado);
+        echo calculaArea($lado);
     }
 ?>
 <!DOCTYPE html>
